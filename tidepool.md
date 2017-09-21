@@ -51,11 +51,28 @@ Typically PPA are used in three commands. First to add the PPA repository to the
 
 I’ll show you an example by using Numix theme PPA:
 
-```sudo add-apt-repository ppa:numix/ppa
-sudo apt-get update
-sudo apt-get install numix-gtk-theme numix-icon-theme-circle```
+```sudo add-apt-repository ppa:numix/ppa```
+```sudo apt-get update```
+```sudo apt-get install numix-gtk-theme numix-icon-theme-circle```
 
 In the above example, we added a PPA provided Numix project. And after updating the software information, we add two programs available in Numix PPA.
+
+### Compiling programs from source code
+
+Installing a software using the source code is not something I would recommend to you. You’ll have to fight your way through dependencies and what not. You’ll often have to keep the source code files else you won’t be able to uninstall it later.
+
+However, most of the programs used in computational biology are architecture-dependent, and require local compilation. 
+
+I’ll be short in this section and just list out the steps to install a software from source code
+
+
+* Download the source code of the program you want to install. Many times, you will need to clone a repository using GitHub : ```git clone 
+* Extract the downloaded file.
+* Go to extracted directory and look for a README or INSTALL file. A well-developed software may include such a file to provide installation and/or removal instructions.
+* Look for a file called configure. If it’s present, run the file using the command: ./configure This will check if your system has all the required softwares (called ‘dependencies’ in software term) to install the program. Note that not all software include configure file which is, in my opinion, bad development practice.
+* If configure notifies you of missing dependencies, install them.
+* Once you have everything, use the command make to compile the program.
+* Once the program is compiled, run the command sudo make install to install the software.
 
 
 

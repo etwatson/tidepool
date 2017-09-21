@@ -52,7 +52,9 @@ Typically PPA are used in three commands. First to add the PPA repository to the
 I’ll show you an example by using Numix theme PPA:
 
 ```sudo add-apt-repository ppa:numix/ppa```
+
 ```sudo apt-get update```
+
 ```sudo apt-get install numix-gtk-theme numix-icon-theme-circle```
 
 In the above example, we added a PPA provided Numix project. And after updating the software information, we add two programs available in Numix PPA.

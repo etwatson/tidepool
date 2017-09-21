@@ -15,10 +15,47 @@ The easiest and most convenient way to find and install software in Ubuntu is by
 
 You can download .deb file from its official website, usually SourceForge. Once you have downloaded the .deb file, just double click on it to run it. It will open in Ubuntu Software Center and you can install it in the same way as we saw in the previous section.
 
-Tip: A few things to keep in mind while dealing with .deb file.
+Tip: A few things to keep in mind while dealing with .deb files:
 * Make sure that you are downloading the .deb file from the official source. Only rely on the official website or GitHub pages.
 * Make sure that you are downloading the .deb file for correct system type (64 bit).
 
+### Aptitude / apt-get
+
+You might have noticed a number of websites giving you a command like ```sudo apt-get install``` to install software in Ubuntu.
+
+This is actually the command line equivalent of what we saw in the first section. Basically, instead of using the graphical interface of Ubuntu Software Center, you are using the command line interface. Nothing else changes.
+
+Using the apt-get command to install software is extremely easy. All you need to do is to use a command like:
+
+```sudo apt-get install package_name```
+
+Here sudo gives ‘admin’ or ‘root’ (in Linux term) privileges. You can replace package_name with the desired software name. 
+
+apt-get commands have auto-completion so if you type a few letters and hit tab, it will provide all the programs matching with those letters.
+
+PPA stands for Personal Package Archive. This is another way that developers use to provide their software to Ubuntu users.
+
+In section 1, you came across a term called ‘repository’. Repository basically contains a collection of software. Ubuntu’s official repository has the softwares that are approved by Ubuntu. Canonical partner repository contains the softwares from partnered vendors.
+
+In the same way, PPA enables a developer to create its own APT repository. When an end user (i.e you) adds this repository to the system (sources.list is modified with this entry), software provided by the developer in his/her repository becomes available for the user.
+
+Now you may ask what’s the need of PPA when we already have the official Ubuntu repository?
+
+The answer is that not all software automatically get added to Ubuntu’s official repository. Only the trusted software make it to that list. Imagine that you developed a cool Linux application and you want to provide regular updates to your users but it will take months before it could be added to Ubuntu’s repository (if it could). PPA comes handy in those cases.
+
+Apart from that, Ubuntu’s official repository often doesn’t include the latest version of a software. This is done to secure the stability of the Ubuntu system. A brand new software version might have a regression that could impact the system. This is why it takes some time before a new version makes it to the official repository, sometimes it takes months.
+
+But what if you do not want to wait till the latest version comes to the Ubuntu’s official repository? This is where PPA saves your day. By using PPA, you get the newer version.
+
+Typically PPA are used in three commands. First to add the PPA repository to the sources list. Second to update the cache of software list so that your system could be aware of the new available software. And third to install the software from the PPA.
+
+I’ll show you an example by using Numix theme PPA:
+
+```sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-gtk-theme numix-icon-theme-circle```
+
+In the above example, we added a PPA provided Numix project. And after updating the software information, we add two programs available in Numix PPA.
 
 
 

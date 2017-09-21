@@ -76,9 +76,11 @@ I’ll be short in this section and just list out the steps to install a softwar
 * If configure notifies you of missing dependencies, install them.
 * Once you have everything, use the command ```make``` to compile the program.
 * Once the program is compiled, run the command ```sudo make install``` to install the software.
-* If necessary, add the folder including binaries to your path: ```echo export PATH=$PATH:/folder/bin >> ~/.bashrc```
+* If necessary, add the folder including binaries to your path: ```echo "export PATH=$PATH:/folder/bin" >> ~/.bashrc```
 * If updating your path is necessary, please share that information with other users. 
 
 
-
 ## Data storage on tidepool
+All data should be stored on the data drive located in ```/media/(user)/data``` in an effort to keep the boot drive clean. Data may be temporarily stored in your ```/home/(user)``` directory, but be mindful of the available storage on this drive, as it may prevent tidepool from booting if it fills up. 
+
+You can find out how much storage is available on each drive using the command ``` df -H```

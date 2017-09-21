@@ -68,13 +68,16 @@ However, most of the programs used in computational biology are architecture-dep
 I’ll be short in this section and just list out the steps to install a software from source code
 
 
-* Download the source code of the program you want to install. Many times, you will need to clone a repository using GitHub : ```git clone 
-* Extract the downloaded file.
+* Download the source code of the program you want to install. Many times, you will need to clone a repository using GitHub. 
+* Extract the downloaded file, or clone using GitHub: ```git clone https://github.com/etwatson/tidepool.git```
+* __All source code should be extracted or cloned to ```/usr/local/repo```__ 
 * Go to extracted directory and look for a README or INSTALL file. A well-developed software may include such a file to provide installation and/or removal instructions.
-* Look for a file called configure. If it’s present, run the file using the command: ./configure This will check if your system has all the required softwares (called ‘dependencies’ in software term) to install the program. Note that not all software include configure file which is, in my opinion, bad development practice.
+* Look for a file called configure. If it’s present, run the file using the command: ```./configure``` This will check if your system has all the required softwares (called ‘dependencies’ in software term) to install the program. Note that not all software include configure file which is, in my opinion, bad development practice.
 * If configure notifies you of missing dependencies, install them.
-* Once you have everything, use the command make to compile the program.
-* Once the program is compiled, run the command sudo make install to install the software.
+* Once you have everything, use the command ```make``` to compile the program.
+* Once the program is compiled, run the command ```sudo make install``` to install the software.
+* If necessary, add the folder including binaries to your path: ```echo export PATH=$PATH:/folder/bin >> ~/.bashrc```
+* If updating your path is necessary, please share that information with other users. 
 
 
 

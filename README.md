@@ -62,7 +62,9 @@ For advanced R practice, you can run through R for Data Science:
 ## 4. Introduction to SSH and SFTP
 For some types of analysis we do, you won't be able to run the analyses on tidepool. Instead, you'll need to access a computer cluster. 
 
-First, you'll need to make sure you have an account. For Edmands lab members, please request an account on USC Center for High-Performance Computing: https://hpcc.usc.edu/support/accounts/applying-for-a-hpcc-account/
+First, you'll need to make sure you have an account. For Edmands lab members, please request an account on USC Center for High-Performance Computing: 
+	
+		https://hpcc.usc.edu/support/accounts/applying-for-a-hpcc-account/
 
 Second, you'll need to know how to get there.
 
@@ -74,7 +76,7 @@ Here is a new user guide for how to access the USC HPC cluster via SSH:
 
 and a FAQ for the USC HPC:
 
-    https://hpcc.usc.edu/support/documentation/faq/
+		https://hpcc.usc.edu/support/documentation/faq/
     
 You may also want transfer files to/from the server. There are many ways to do this, but SFTP (Secure File Transfer Protocol) is one way. You can use a variety of tools, including MoabXterm (from above), the SFTP command line tools (https://linux.die.net/man/1/sftp), or a GUI-based SFTP program (people in the lab like FileZilla: https://filezilla-project.org and CyberDuck: https://cyberduck.io - both work for Mac or Windows). 
 
@@ -83,7 +85,7 @@ Once you have an account on the cluster, you'll want to be able to run jobs. You
 
 To run a job on the HPC cluster, you will need to set up a Portable Batch System (PBS) file. This PBS file defines the commands and cluster resources used for the job.  A PBS file is a simple text file that can be easily edited with a UNIX editor, such as vi, pico, or emacs. Information on UNIX editors can be found in the UNIX Overview section of the ITS website.
 
-    http://hpcc.usc.edu/support/documentation/running-a-job-on-the-hpcc-cluster-using-pbs/
+		http://hpcc.usc.edu/support/documentation/running-a-job-on-the-hpcc-cluster-using-pbs/
 
 ## 6. Git and Github
 Finally we get to the page you're actually on! Git and Github (while separate) are often used together to organize code for projects, allow collaborators to contribute to the project, and most importantly, manage multiple versions of code/documents. We will use Git and GitHub for our projects in lab. While most of the commands are fairly straitforward Git/GitHub uses specific terminology that you'll need to familiarize yourself with. 

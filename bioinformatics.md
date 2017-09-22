@@ -44,16 +44,23 @@ Other than working within the terminal (command line), and writing codes in pyth
 
 Here is how you can obtain R and R studio (a user-friendly environment for running R):
 
-		https://www.youtube.com/watch?v=dRH-SasnzzU
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=dRH-SasnzzU
+" target="_blank"><img src="http://img.youtube.com/vi/dRH-SasnzzU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Similar to python, there are many tutorials for R, but one that many trainees in the lab have found useful is: 
 		
 		https://www.datacamp.com/courses/free-introduction-to-r
 
 Here are videos for how to do basic computation in R, and basic programming in R:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=3xriAzqc-fw
+" target="_blank"><img src="http://img.youtube.com/vi/3xriAzqc-fw/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-		https://www.youtube.com/watch?v=3xriAzqc-fw
-		https://www.youtube.com/watch?v=S6EVGoV8PpU		
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=S6EVGoV8PpU
+" target="_blank"><img src="http://img.youtube.com/vi/S6EVGoV8PpU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+	
 
 For advanced R practice, you can run through R for Data Science: 
 

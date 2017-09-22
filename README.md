@@ -2,6 +2,7 @@
 A guide for computational analysis on tidepool
 
 To read the markup files, use the following command:
+
 ```grip tidepool.md```
 
 ```grip bioinformatics.md```

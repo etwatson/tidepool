@@ -1,7 +1,7 @@
 # tidepool
 A guide for computational analysis on tidepool
 
-To read the markup files, use the following command:
+To read the most up-to-date markup files on your computer, use the following command:
 
 ```grip tidepool.md```
 

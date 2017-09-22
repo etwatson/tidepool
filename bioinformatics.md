@@ -53,6 +53,7 @@ Similar to python, there are many tutorials for R, but one that many trainees in
 		https://www.datacamp.com/courses/free-introduction-to-r
 
 Here are videos for how to do basic computation in R, and basic programming in R:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=3xriAzqc-fw
 " target="_blank"><img src="http://img.youtube.com/vi/3xriAzqc-fw/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>

@@ -81,6 +81,6 @@ I’ll be short in this section and just list out the steps to install a softwar
 
 
 ## Data storage on tidepool
-All data should be stored on the data drive located in ```/media/(user)/data``` in an effort to keep the boot drive clean. Data may be temporarily stored in your ```/home/(user)``` directory, but be mindful of the available storage on this drive, as it may prevent tidepool from booting if it fills up. 
+All data should be stored on the data drive located in ```/media/data``` in an effort to keep the boot drive clean. Data may be temporarily stored in your ```/home/(user)``` directory, but be mindful of the available storage on this drive, as it may prevent tidepool from booting if it fills up. 
 
 You can find out how much storage is available on each drive using the command ``` df -H```

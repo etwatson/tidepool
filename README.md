@@ -1,7 +1,9 @@
 # tidepool
 A guide for computational analysis on tidepool
 
-To read the most up-to-date markup files on your computer, use the following command:
+github markdown files can be read in your internet browser, or...
+
+To read the most up-to-date markdown files on your computer, use the following command:
 
 ```grip tidepool.md```
 

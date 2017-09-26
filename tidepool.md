@@ -79,6 +79,28 @@ I’ll be short in this section and just list out the steps to install a softwar
 * If necessary, add the folder including binaries to your path: ```echo "export PATH=$PATH:/folder/bin" >> ~/.bashrc```
 * If updating your path is necessary, please share that information with other users. 
 
+### Installing perl modules with CPAN
+
+Perl modules are best installed with the Comprehensive Perl Archive Network (CPAN). Have you ever gotten a message that looks like this:
+
+```perl 
+Can't locate foo/bar/foobar.pm in @INC (you may need to install the foo::bar::foobar module)
+```
+
+Chances are that you will see this message soon if you haven't. Well, CPAN.pm is a perl module that installs perl modules! It is part of the standard distribution so you should have a copy available. The easiest way to use it is like this:
+
+```perl
+perl -MCPAN -e 'shell'
+```
+Once the cpan shell is up and running, you can install your package using the command:
+
+```perl 
+install foo::bar::foobar
+```
+More information on installing perl modules can be found here: http://www.perlmonks.org/index.pl?node_id=128077
+
+
+
 
 ## Data storage on tidepool
 All data should be stored on the data drive located in ```/media/data``` in an effort to keep the boot drive clean. Data may be temporarily stored in your ```/home/(user)``` directory, but be mindful of the available storage on this drive, as it may prevent tidepool from booting if it fills up. 
